@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 300px;
+    padding: 100px;
+    background-color: white;
+    text-align: left;
+    height: 1920px;
+
+}
+
+main h1 {
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+main h2 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+main p {
+    font-size: 30px;
+}
+
+header,
+footer,
+main {
+    height: 100vmax;
+
+}
+
+header {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+
+
+}
+
+#primeralista {
+    list-style-type: none;
+    padding-top: 200px;
+    color: gray;
+    font-size: 20pt;
+    font-weight: lighter;
+    line-height: 3;
+
+}
+
+footer {
+    background-color: black;
+
+}
+
+#segundalista {
+    color: white;
+    list-style-type: none;
+    line-height: 3;
+    padding: 400px;
+    font-size: 20pt;
+    line-height: 3;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+a:active {
+    color: aquamarine;
+}
+
+.EnlaceNulo:hover {
+    color: red;
+    text-decoration: line-through;
+}
+
+div {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 50px;
+}
