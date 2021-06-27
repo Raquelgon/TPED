@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    color: gray;
+    font-size: 10pt;
+}
+
+li {
+    list-style-type: none;
+    color: gray;
+    font-size: 10pt;
+}
