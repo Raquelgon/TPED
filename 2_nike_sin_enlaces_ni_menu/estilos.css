@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 300px;
+    padding: 100px;
+    background-color: white;
+    text-align: left;
+    height: 1920px;
+
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 70px;
+}
+
+h2 {
+    color: gray;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    width: 1500px;
+}
+
+#primeralista {
+    list-style-type: none;
+    padding: 0px;
+    color: gray;
+    font-size: 20pt;
+    font-weight: lighter;
+    line-height: 3;
+}
+
+footer {
+    background-color: black;
+
+}
+
+#segundalista {
+    color: white;
+    list-style-type: none;
+    line-height: 3;
+    padding: 400px;
+    font-size: 20pt;
+    line-height: 3;
+}
